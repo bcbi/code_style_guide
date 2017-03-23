@@ -5,10 +5,14 @@
 
 ## Julia
 
+* Naming:
+  * Use PascalCase for Modules and main module filename. E.g., MultivariateStats.jl
+  * Use snake_case for variable and function names, as well as any other filename besides the main module file
+
 
 ## JavaScript - React
 
-* Follow [Airbnb guidelines](https://github.com/airbnb/javascript/tree/master/react) 
+* For JSX style, follow [Airbnb guidelines](https://github.com/airbnb/javascript/tree/master/react) 
 * Folder organization for a react-redux app is inspired on this [post](https://www.robinwieruch.de/tips-to-learn-react-redux/#folderOrganization). Depending on the leavel of complexity of your app, it may look something like
 
 ### For smaller projects:
