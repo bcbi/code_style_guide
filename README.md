@@ -1,2 +1,11 @@
-# code_style_guide
-Guidelines for different languages used at BCBI
+# Style guideline for different languages used at BCBI
+
+1. [Julia](julia)
+2. [JavaScript)(javascript)
+
+## Julia
+
+
+## JavaScript
+
+
