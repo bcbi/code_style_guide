@@ -2,7 +2,7 @@
 
 1. [Julia](#julia)
 2. [JavaScript](#javascript_react)
-  * [ESLint](#eslint)
+  ..* [ESLint](#eslint)
 
 ## Julia
 In general, follow the conventions of the [Julia language authors](http://docs.julialang.org/en/release-0.5/manual/style-guide/).
