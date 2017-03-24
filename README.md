@@ -1,7 +1,7 @@
 # Style guideline for different languages used at BCBI
 
 1. [Julia](#julia)
-2. [JavaScript](#javascript--react)
+2. [JavaScript](#javascript_react)
 3. [ESLint](#eslint)
 
 ## Julia
@@ -17,6 +17,7 @@ In general, follow the conventions of the [Julia language authors](http://docs.j
 * Other:
   * Append the `!` symbol to the names of functions that modify their arguments. Good examples from the core language are `push!()` and `append!()`.
 
+<a name="javascript_react"/></a>
 ## JavaScript - React
 
 * For JSX style, follow [Airbnb guidelines](https://github.com/airbnb/javascript/tree/master/react)
@@ -54,9 +55,9 @@ src/
 ----spec.js (tests)
 ```
 
-<a name="eslint"/>
+<a name="eslint"/></a>
 ### ESLint installation (Atom)
-</a>
+
 
 Install linter-eslint through the atom package manager or the console.
 
