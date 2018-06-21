@@ -41,20 +41,27 @@ src/
 
 ```
 src/
---components/  
-----messageItem/
-------presenter.js (stateless part)
-------spec.js (tests)
-----messageList/
-------container.js (Redux-connected or state)
-------presenter.js (stateless part)
-------spec.js
---reducer/
-----index.js
-----spec.js (tests)
---actions/
-----index.js
-----spec.js (tests)
+--components/  (stateless)
+----FeatureItem.js
+----FeatureList.js
+--containers/  (connected, name should reflect what it is connected to)
+----MessageItem.js
+----MessageList.js
+----TopicList.js
+--redux/ (contains master reducer and features with actions and reducers)
+----reducers.js
+----messages/
+------actions.js
+------actionTypes.js
+------reducer.js
+----topics/
+------actions.js
+------actionTypes.js
+------reducer.js
+--services/ (interfaces to servers/APIs)
+----messages.js
+----topics.js
+tests/
 ```
 
 <a name="eslint"/></a>
