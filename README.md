@@ -41,6 +41,7 @@ src/
 
 ```
 src/
+--/assets (images, static files, etc.)
 --components/  (stateless)
 ----FeatureItem.js
 ----FeatureList.js
