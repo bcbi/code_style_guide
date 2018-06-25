@@ -49,12 +49,14 @@ src/
 ----MessageItem.js
 ----MessageList.js
 ----TopicList.js
---redux/ (contains master reducer and features with actions and reducers)
+--redux/ (contains master reducer, root saga, and features with actions and reducers)
 ----reducers.js
+----sagas.js
 ----messages/
 ------actions.js
 ------actionTypes.js
 ------reducer.js
+------saga.js
 ----topics/
 ------actions.js
 ------actionTypes.js
