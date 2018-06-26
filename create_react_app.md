@@ -23,6 +23,7 @@ mkdir services
 3. Install basic react/redux dependencies
 
 ```
+npm install bootstrap -s
 npm install reactstrap -s
 npm install redux -s
 npm install react-redux -s
