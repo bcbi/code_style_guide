@@ -25,7 +25,8 @@ mkdir services
 ```
 npm install reactstrap -s
 npm install redux -s
+npm install react-redux -s
 npm install redux-saga -s
-npm install react-router
 npm install react-router-dom -s
+npm install seamless-immutable -s
 ```
