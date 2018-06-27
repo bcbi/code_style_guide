@@ -31,3 +31,8 @@ npm install redux-saga -s
 npm install react-router-dom -s
 npm install seamless-immutable -s
 ```
+
+4. Other handy libraries that you may need
+```
+npm install dotenv -s
+```
