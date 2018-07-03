@@ -2,7 +2,7 @@
 
 * Get latest npm
 
-  `npm install -g npm@latest`
+  `npm i -g npm`
 
 * Update global npm packages
 
