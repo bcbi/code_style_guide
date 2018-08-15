@@ -21,6 +21,7 @@ In general, follow the conventions of the [Julia language authors](http://docs.j
 
 <a name="javascript_react"/></a>
 ## JavaScript - React
+Generally, BCBI apps should use React, Redux, Sagas, and Bootstrap. This allows for greater interoperability of components and easier maintenance.
 
 * For JSX style, follow [Airbnb guidelines](https://github.com/airbnb/javascript/tree/master/react)
 * Folder organization for a react-redux app is inspired on this [post](https://www.robinwieruch.de/tips-to-learn-react-redux/#folderOrganization). Depending on the leavel of complexity of your app, it may look something like
