@@ -29,6 +29,8 @@ In general, follow the conventions of the [Julia language authors](http://docs.j
 
 ```
 src/
+--assets/
+----bcbi-main.svg
 --components/
 ----messageItem.js
 ----messageList.js
