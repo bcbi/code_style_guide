@@ -1,8 +1,8 @@
 
 export function fetchData(data) {
   return({ type: 'CHANGE_DATA', data})
-}
+}s
 
-export function changeString(data) {
-  return({ type: 'CHANGE_STRING', data})
+export function changeError(data) {
+  return({ type: 'CHANGE_ERROR', data})
 }

@@ -32,8 +32,8 @@ echo "Replacing css"
 curl -g -L -f -o ./App.css ${ASSET_URL}App.css
 
 echo "Replacing App.js, index.js"
-curl -g -L -f -o ./App.js ${ASSET_URL}App.js
-curl -g -L -f -o ./index.js ${ASSET_URL}index.js
+curl -g -L -f -o ./App.js ${COMPONENT_URL}App.js
+curl -g -L -f -o ./index.js ${COMPONENT_URL}index.js
 
 echo "Adding actions, reducer, sagas, client"
 curl -g -L -f -o ./actions.js ${COMPONENT_URL}actions.js
@@ -52,5 +52,5 @@ cd ..
 echo "Installing packages"
 npm install isomorphic-fetch lodash react-router-dom react-spinners bootstrap reactstrap redux redux-saga react-redux seamless-immutable
 
-echo "Running app"
+echo "Running app - there will be warnings due to unused functions/variables"
 npm start

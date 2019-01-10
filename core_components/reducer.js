@@ -15,7 +15,7 @@ export default function reduce(state = initialState, action = {}) {
       return state.merge({
         array: action.data
       });
-    case 'CHANGE_STRING':
+    case 'CHANGE_ERROR':
       return state.merge({
         string: action.data
       });
@@ -28,6 +28,6 @@ export function getData(state) {
   return state.array;
 }
 
-export function getString(state) {
+export function getError(state) {
   return state.string;
 }

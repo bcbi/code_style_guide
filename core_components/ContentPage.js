@@ -15,7 +15,7 @@ export class ContentPage extends Component {
   }
 
   handleSubmit(event) {
-    this.props.changeString(event.target.value);
+    this.props.changeError(event.target.value);
 
     event.preventDefault();
   }
@@ -38,13 +38,13 @@ export class ContentPage extends Component {
 function mapStateToProps(state) {
   return {
     array: selectors.getData(state),
-    string: selectors.getString(state)
+    error: selectors.getError(state)
   };
 }
 
 function mapDispatchToProps(dispatch) {
   return {
-    changeString: (val) => dispatch(actions.changeString(val)),
+    changeError: (val) => dispatch(actions.changeError(val)),
     fetchData: data => dispatch({ type: 'FETCH_DATA', payload:'' })
   };
 }
