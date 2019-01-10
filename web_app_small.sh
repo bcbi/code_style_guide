@@ -4,7 +4,7 @@
 # It should be run from the parent directory you want you're app to live in
 # e.g. if you want your app to be in ~/src/my_app, you should run this from ~/src
 
-echo "What is your app name?"
+echo "What is your app name? (use naming convention <app>_frontend)"
 read APP_NAME
 
 echo "Creating $APP_NAME"

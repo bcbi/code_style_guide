@@ -23,6 +23,8 @@ In general, follow the conventions of the [Julia language authors](http://docs.j
 ## JavaScript - React
 Generally, BCBI apps should use React, Redux, Sagas, and Bootstrap. This allows for greater interoperability of components and easier maintenance.
 
+An app typically consists of a frontend and backend.  The repos should be named `<app>_frontend` and `<app>_api`
+
 ```
 npm install bootstrap react-redux redux redux-saga
 ```
