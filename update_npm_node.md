@@ -28,3 +28,13 @@
 * You are then free to choose between installed versions of Node.js. So if you would need to use an older version like v4.2.0 you would set it as the active version like this:
 
   `nvm use 4.2`
+
+## Update packages in Package.json
+
+`npm-check-updates` is a utility that automatically adjusts a package.json with the latest version of all dependencies
+
+```
+npm i -g npm-check-updates
+ncu -u
+npm install
+```
